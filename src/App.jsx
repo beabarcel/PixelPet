@@ -22,11 +22,9 @@ function App() {
         <Route path="/cadastro" element={<Cadastro />} />
         <Route path="*" element={<h1>Página Não Encontrada</h1>} />
       </Routes>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 }
 
 export default App;
-
-//através do :user a gente consegue acessar a url de user
