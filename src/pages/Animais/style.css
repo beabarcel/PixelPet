@@ -1,0 +1,16 @@
+/* Estilos para a imagem normal */
+.comida {
+  display: inline;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.comida img:hover {
+  box-shadow: 0 0 10px rgba(228, 97, 200, 0.795); /* Sombra com blur */
+  border-radius: 20%; /* Arredondamento completo */
+}
+
+.cat {
+  margin-left: 20px;
+  display: flex;
+}

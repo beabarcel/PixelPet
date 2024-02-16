@@ -1,0 +1,12 @@
+.login {
+  color: palevioletred;
+  text-align: center;
+  font-family: "Public Pixel", sans-serif;
+}
+
+.link {
+  margin-top: 20px;
+  font-family: "Arial";
+  font-size: 10px;
+  color: white;
+}
