@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import cat from "./imagens/cat.png";
 import leite from "./imagens/leite.png";
 import picole from "./imagens/picole.png";

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const dados = {
   login: "user",
@@ -46,7 +47,7 @@ export default function Login() {
       <form>
         <input
           type="text"
-          placeholder="Digite Seu login"
+          placeholder="Digite seu login"
           value={login}
           onChange={(e) => setLogin(e.target.value)}
           style={{ marginBottom: "10px" }}
@@ -54,7 +55,7 @@ export default function Login() {
         <br />
         <input
           type="password"
-          placeholder="Digite Sua Senha"
+          placeholder="Digite sua Senha"
           value={senha}
           onChange={(e) => setSenha(e.target.value)}
           style={{ marginBottom: "35px" }}
@@ -63,6 +64,9 @@ export default function Login() {
         <button type="button" onClick={entrar}>
           Entrar
         </button>
+        <h2 className="link">
+          Ainda não é cadastrado? <Link to="/cadastro">Clique aqui.</Link>
+        </h2>
       </form>
     </>
   );

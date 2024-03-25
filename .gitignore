@@ -26,3 +26,4 @@ dist-ssr
 *.packeage.json
 *.package-lock.json
 *.vite-config.js
+*.gitattributes

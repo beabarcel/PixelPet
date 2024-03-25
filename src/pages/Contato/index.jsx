@@ -1,11 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import "./style.css";
-import {
-  faEnvelope,
-  faLaptop,
-  faPhoneFlip,
-} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Contato = () => {
   const navigate = useNavigate();
@@ -36,22 +33,22 @@ const Contato = () => {
           icon={faEnvelope}
           title="E-mail"
           beat
-          style={{ color: "paleturquoise" }}
+          style={{ color: "skyblue" }}
         />
       </button>
 
       <button onClick={handleClickBotao2}>
         <FontAwesomeIcon
-          icon={faLaptop}
+          icon={faGithub}
           title="GitHub"
           beat
-          style={{ color: "pink" }}
+          style={{ color: "white" }}
         />
       </button>
 
       <button onClick={handleClickBotao3}>
         <FontAwesomeIcon
-          icon={faPhoneFlip}
+          icon={faWhatsapp}
           title="WhatsApp"
           beat
           style={{ color: "palegreen" }}
