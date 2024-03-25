@@ -8,7 +8,7 @@ Possui uma interface visual desenvolvida utilizando:
 * Vite
 
 Possui uma API desenvolvida utilizando:
-* NODE.js
+* Node.js
 
 Banco de dados:
 * MongoDB (NOSQL)
