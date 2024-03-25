@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "aula-04",
+=======
+  "name": "api-node",
+>>>>>>> 2fcea1ebed4205c9857cbdaf575b6609ad4101e0
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +11,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+<<<<<<< HEAD
     "preview": "vite preview"
+=======
+    "preview": "vite preview",
+    "dev-nd": "nodemon database.js"
+>>>>>>> 2fcea1ebed4205c9857cbdaf575b6609ad4101e0
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
@@ -17,6 +26,10 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "^5.3.2",
     "dotenv": "^16.4.4",
+<<<<<<< HEAD
+=======
+    "express": "^4.18.2",
+>>>>>>> 2fcea1ebed4205c9857cbdaf575b6609ad4101e0
     "ionicons": "^7.2.1",
     "mongodb": "^6.3.0",
     "mongoose": "^8.1.2",
@@ -34,6 +47,10 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+<<<<<<< HEAD
+=======
+    "nodemon": "^3.0.3",
+>>>>>>> 2fcea1ebed4205c9857cbdaf575b6609ad4101e0
     "vite": "^4.4.5"
   }
 }
